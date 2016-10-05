@@ -4,7 +4,6 @@
 ##title: "Domestic Violentce accidents"
 ##author: "IrinaMax"
 ##date: "30 Sept 2016"
-##output: html_document
 
   
 #  The goal of this script is to get an overview of the accidents in partnership in California
@@ -18,7 +17,7 @@
 
 #I also tried to understand  and make move visual plots easy to understand where 
 #in what country accidents happened more and predict some forecast. This code 
-#in process and i still working on it. 
+#in proggess and i still working on it. 
 #If I made mistakes, let me know!
   
 ##  Load libraries
