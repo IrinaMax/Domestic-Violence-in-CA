@@ -39,9 +39,7 @@ str(studyDV)
 tbl_df(studyDV)
 glimpse(studyDV)
 summary(studyDV)
-stable(studyDV$YEAR, studyDV$TOTAL_CALLS, studyDV$NO_WEAPONS, studyDV$WEAPONS_INVOLVED)
-   studyDV$SUB_OTHER, studyDV$SUB_PERSONAL, 
-  studyDV$WEAPON_NOT_RPT)
+table(studyDV$YEAR, studyDV$TOTAL_CALLS, studyDV$NO_WEAPONS, studyDV$WEAPONS_INVOLVED)
       
 colSums(study)
 
