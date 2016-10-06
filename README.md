@@ -50,9 +50,9 @@ colSums(study)
 #Start with summarizing the data
 
 table(studyDV$YEAR, studyDV$COUNTY)
-ggplot(studyDV, aes(YEAR)) + geom_bar() # make plot by year
-ggplot(studyDV, aes(COUNTY)) + geom_bar() # make plot by county
-ggplot(studyDV, aes(NCIC_AGENCY_CODE)) + geom_bar()  # make plot by agency
+ggplot(studyDV, aes(YEAR)) + geom_bar() # make Rplot1 by year
+ggplot(studyDV, aes(COUNTY)) + geom_bar() # make Rplot2 by county
+ggplot(studyDV, aes(NCIC_AGENCY_CODE)) + geom_bar()  # make Rplot3 by agency code
 
 m <- mean(studyDV$COUNTY)
 WEAPONS_INVOLVED = mean(WEAPONS_INVOLVED))
