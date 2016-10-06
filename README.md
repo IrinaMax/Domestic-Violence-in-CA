@@ -39,9 +39,10 @@ str(studyDV)
 tbl_df(studyDV)
 glimpse(studyDV)
 summary(studyDV)
-table(studyDV$YEAR, studyDV$TOTAL_CALLS, studyDV$NO_WEAPONS, studyDV$WEAPONS_INVOLVED)
-      
-colSums(study)
+
+table1 <- data.frame(studyDV$TOTAL_CALLS, studyDV$WEAPONS_INVOLVED, studyDV$NO_WEAPONS,
+                     studyDV$SUB_KNIFE, studyDV$SUB_PERSONAL)      
+colSums(table1)
 
 
 #This dataset contains 81866 observations and 11 variables. 
