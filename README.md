@@ -29,14 +29,14 @@ working with and develop any researchand analysis.
 ##in proggess and i still working on it. 
 ##If I made mistakes, let me know!
   
-##  Load libraries
+  ##  Load libraries
 
     library(dplyr) # reshaping
     library(tidyr) # reshaping
-   library(ggplot2) # Visualization
-   library(ggthemes) # Visualization
-   library(data.table)
-   ##Load the data
+    library(ggplot2) # Visualization
+    library(ggthemes) # Visualization
+    library(data.table)
+    ##Load the data
 
 studyDV <- read.csv("dv_data_set_2005-2014.csv")
 ##Get first overview
