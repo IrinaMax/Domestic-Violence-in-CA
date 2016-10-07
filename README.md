@@ -6,28 +6,28 @@
 ##date: "30 Sept 2016"
 
   
-#  The goal of this script is to get an overview of the accidents in partnership in California
-#to study Domestic Violentce data set. That is how many accidents happened by year, 
-#how much with weapons and without weapons, and how this dinamic was chanes during 2005-2014
-#I have used the file dv_data_set_2005-2014.csv, which I found online and its open for 
-#working with and develop any researchand analysis.
+##  The goal of this script is to get an overview of the accidents in partnership in California
+##to study Domestic Violentce data set. That is how many accidents happened by year, 
+##how much with weapons and without weapons, and how this dinamic was chanes during 2005-2014
+##I have used the file dv_data_set_2005-2014.csv, which I found online and its open for 
+##working with and develop any researchand analysis.
 
-#I found it interesting that the accident with weapon getting less with time. 
-#But apperently it is possible for
+##I found it interesting that the accident with weapon getting less with time. 
+##But apperently it is possible for
 
-#I also tried to understand  and make move visual plots easy to understand where 
-#in what country accidents happened more and predict some forecast. This code 
-#in proggess and i still working on it. 
-#If I made mistakes, let me know!
+##I also tried to understand  and make move visual plots easy to understand where 
+##in what country accidents happened more and predict some forecast. This code 
+##in proggess and i still working on it. 
+##If I made mistakes, let me know!
   
 ##  Load libraries
 
-library(dplyr) # reshaping
-library(tidyr) # reshaping
-library(ggplot2) # Visualization
-library(ggthemes) # Visualization
-library(data.table)
-##Load the data
+    library(dplyr) # reshaping
+    library(tidyr) # reshaping
+   library(ggplot2) # Visualization
+   library(ggthemes) # Visualization
+   library(data.table)
+   ##Load the data
 
 studyDV <- read.csv("dv_data_set_2005-2014.csv")
 ##Get first overview
