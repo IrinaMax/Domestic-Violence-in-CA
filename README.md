@@ -6,20 +6,20 @@
 ##author: "IrinaMax"
 ##date: "30 Sept 2016"
 
-Domestic violence is defined as “...abuse committed against an adult or a fully emancipated minor who is a spouse, former spouse, cohabitant, former cohabitant, or person with whom the suspect has had a child or is having or has had a dating or engagement relationship.” [13700(b) PC]
-Abuse is defined as “...intentionally or recklessly causing or attempting to cause bodily injury, or placing another person in reasonable apprehension of imminent serious bodily injury to himself or herself, or another.” [13700(a) PC]
-The definition of “domestic violence” is subject to varying interpretations by law enforcement agencies. As a result, different types of domestic violence relationships may be included in the database.
-Included in the data are any cases that resulted in a report being written by the responding law enforcement agency. Therefore, data include both cases where an arrest was made and those where circumstances did not warrant an arrest.
+ Domestic violence is defined as “...abuse committed against an adult or a fully emancipated minor who is a spouse, former spouse, cohabitant, former cohabitant, or person with whom the suspect has had a child or is having or has had a dating or engagement relationship.” [13700(b) PC]
+ Abuse is defined as “...intentionally or recklessly causing or attempting to cause bodily injury, or placing another person in reasonable apprehension of imminent serious bodily injury to himself or herself, or another.” [13700(a) PC]
+ The definition of “domestic violence” is subject to varying interpretations by law enforcement agencies. As a result, different types of domestic violence relationships may be included in the database.
+ Included in the data are any cases that resulted in a report being written by the responding law enforcement agency. Therefore, data include both cases where an arrest was made and those where circumstances did not warrant an arrest.
 Domestic violence-related calls for assistance that involved the use, or threat to use, of a firearm, knife or cutting instrument or other dangerous weapon are reported according to the type of weapon used regardless of the outcome or injury.
-In 2002, law enforcement agencies were given clarification about reporting personal weapons. This clarification corresponds to a notable decrease in the number of personal weapons reported. The use of a personal weapon such as hands, fists, or feet was reported as a weapon only if the assault was considered an aggravated assault under Uniform Crime Reporting (UCR) guidelines. An aggravated assault is an unlawful attack by one person upon another for the purpose of inflicting severe or aggravated bodily injury, such as broken bones, internal injuries, or cuts requiring stitches.
+ In 2002, law enforcement agencies were given clarification about reporting personal weapons. This clarification corresponds to a notable decrease in the number of personal weapons reported. The use of a personal weapon such as hands, fists, or feet was reported as a weapon only if the assault was considered an aggravated assault under Uniform Crime Reporting (UCR) guidelines. An aggravated assault is an unlawful attack by one person upon another for the purpose of inflicting severe or aggravated bodily injury, such as broken bones, internal injuries, or cuts requiring stitches.
 
 
   
-##  The goal of this script is to get an overview of the accidents in partnership in California
-##to study Domestic Violentce data set. That is how many accidents happened by year, 
-##how much with weapons and without weapons, and how this dinamic was chanes during 2005-2014
-##I have used the file dv_data_set_2005-2014.csv, which I found online and its open for 
-##working with and develop any researchand analysis.
+  The goal of this script is to get an overview of the accidents in partnership in California
+to study Domestic Violentce data set. That is how many accidents happened by year, 
+how much with weapons and without weapons, and how this dinamic was chanes during 2005-2014
+I have used the file dv_data_set_2005-2014.csv, which I found online and its open for 
+working with and develop any researchand analysis.
 
 ##I found it interesting that the accident with weapon getting less with time. 
 ##But apperently it is possible for
