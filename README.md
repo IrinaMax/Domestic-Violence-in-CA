@@ -40,18 +40,18 @@ working with and develop any researchand analysis.
 
 studyDV <- read.csv("dv_data_set_2005-2014.csv")
 ##Get first overview
-dim(studyDV)
-str(studyDV)
+    dim(studyDV)
+    str(studyDV)
 
 #Get first overview
 
-tbl_df(studyDV)
-glimpse(studyDV)
-summary(studyDV)
+   tbl_df(studyDV)
+   glimpse(studyDV)
+   summary(studyDV)
 
-table1 <- data.frame(studyDV$TOTAL_CALLS, studyDV$WEAPONS_INVOLVED, studyDV$NO_WEAPONS,
+   table1 <- data.frame(studyDV$TOTAL_CALLS, studyDV$WEAPONS_INVOLVED, studyDV$NO_WEAPONS,
                      studyDV$SUB_KNIFE, studyDV$SUB_PERSONAL)      
-colSums(table1)
+   colSums(table1)
 
 
 #This dataset contains 81866 observations and 11 variables. 
@@ -59,10 +59,10 @@ colSums(table1)
 
 #Start with summarizing the data
 
-table(studyDV$YEAR, studyDV$COUNTY)
-ggplot(studyDV, aes(YEAR)) + geom_bar() # make Rplot1 by year
-ggplot(studyDV, aes(COUNTY)) + geom_bar() # make Rplot2 by county
-ggplot(studyDV, aes(NCIC_AGENCY_CODE)) + geom_bar()  # make Rplot3 by agency code
+   table(studyDV$YEAR, studyDV$COUNTY)
+   ggplot(studyDV, aes(YEAR)) + geom_bar() # make Rplot1 by year
+   ggplot(studyDV, aes(COUNTY)) + geom_bar() # make Rplot2 by county
+   ggplot(studyDV, aes(NCIC_AGENCY_CODE)) + geom_bar()  # make Rplot3 by agency code
 
 m <- mean(studyDV$TOTAL_CALLS)
 m
