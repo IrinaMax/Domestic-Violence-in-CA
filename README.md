@@ -39,19 +39,19 @@ working with and develop any researchand analysis.
     ##Load the data
 
     studyDV <- read.csv("dv_data_set_2005-2014.csv")
-   ##Get first overview
+  ##Get first overview
     dim(studyDV)
     str(studyDV)
 
    #Get first overview
 
-   tbl_df(studyDV)
-   glimpse(studyDV)
-   summary(studyDV)
+    tbl_df(studyDV)
+    glimpse(studyDV)
+    summary(studyDV)
 
-   table1 <- data.frame(studyDV$TOTAL_CALLS, studyDV$WEAPONS_INVOLVED, studyDV$NO_WEAPONS,
-                     studyDV$SUB_KNIFE, studyDV$SUB_PERSONAL)      
-   colSums(table1)
+    table1 <- data.frame(studyDV$TOTAL_CALLS, studyDV$WEAPONS_INVOLVED, studyDV$NO_WEAPONS,
+                         studyDV$SUB_KNIFE, studyDV$SUB_PERSONAL)      
+    colSums(table1)
 
 
 #This dataset contains 81866 observations and 11 variables. 
