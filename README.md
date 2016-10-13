@@ -38,12 +38,12 @@ working with and develop any researchand analysis.
     library(data.table)
     ##Load the data
 
-studyDV <- read.csv("dv_data_set_2005-2014.csv")
-##Get first overview
+    studyDV <- read.csv("dv_data_set_2005-2014.csv")
+   ##Get first overview
     dim(studyDV)
     str(studyDV)
 
-#Get first overview
+   #Get first overview
 
    tbl_df(studyDV)
    glimpse(studyDV)
