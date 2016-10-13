@@ -36,7 +36,7 @@ working with and develop any researchand analysis.
     library(ggplot2) # Visualization
     library(ggthemes) # Visualization
     library(data.table)
-    ##Load the data
+  ##Load the data
 
     studyDV <- read.csv("dv_data_set_2005-2014.csv")
   ##Get first overview
