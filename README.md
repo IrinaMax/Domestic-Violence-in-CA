@@ -64,8 +64,8 @@ studyDV <- read.csv("dv_data_set_2005-2014.csv")
    ggplot(studyDV, aes(COUNTY)) + geom_bar() # make Rplot2 by county
    ggplot(studyDV, aes(NCIC_AGENCY_CODE)) + geom_bar()  # make Rplot3 by agency code
 
-m <- mean(studyDV$TOTAL_CALLS)
-m
+   m <- mean(studyDV$TOTAL_CALLS)
+   m
 
 m_weap = mean(studyDV$WEAPONS_INVOLVED)
 m_weap
