@@ -27,7 +27,7 @@ working with and develop any researchand analysis.
 ##I also tried to understand  and make move visual plots easy to understand where 
 ##in what country accidents happened more and predict some forecast. This code 
 ##in proggess and i still working on it. 
-##If I made mistakes, let me know!
+
   
   ##  Load libraries
 
@@ -54,18 +54,18 @@ working with and develop any researchand analysis.
     colSums(table1)
 
 
-#This dataset contains 81866 observations and 11 variables. 
-#The first column represents the the year when accident happend.
+This dataset contains 81866 observations and 11 variables. 
+The first column represents the the year when accident happend.
 
-#Start with summarizing the data
+Start with summarizing the data
 
-   table(studyDV$YEAR, studyDV$COUNTY)
-   ggplot(studyDV, aes(YEAR)) + geom_bar() # make Rplot1 by year
-   ggplot(studyDV, aes(COUNTY)) + geom_bar() # make Rplot2 by county
-   ggplot(studyDV, aes(NCIC_AGENCY_CODE)) + geom_bar()  # make Rplot3 by agency code
+     table(studyDV$YEAR, studyDV$COUNTY)
+     ggplot(studyDV, aes(YEAR)) + geom_bar() # make Rplot1 by year
+     ggplot(studyDV, aes(COUNTY)) + geom_bar() # make Rplot2 by county
+     ggplot(studyDV, aes(NCIC_AGENCY_CODE)) + geom_bar()  # make Rplot3 by agency code
 
-   m <- mean(studyDV$TOTAL_CALLS)
-   m
+    m <- mean(studyDV$TOTAL_CALLS)
+    m
 
 m_weap = mean(studyDV$WEAPONS_INVOLVED)
 m_weap
