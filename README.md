@@ -138,14 +138,12 @@ and with personal abuse 1392.
 
      library(ggplot2)
      ggplot(studyDV, aes(YEAR, fill = COUNTY)) + geom_bar()
+![ggplot2_dv](https://cloud.githubusercontent.com/assets/16123495/20827078/43555c5a-b824-11e6-9ff8-7740b2f16403.png)     
 
      table(studyDV$WEAPONS_INVOLVED)
-make plot
-     ggplot(studyDV, aes(x=YEAR, fill=COUNTY)) + geom_bar() 
-
-
      table(studyDV$NCIC_AGENCY_CODE)
      ggplot(studyDV, aes(NCIC_AGENCY_CODE, fill=COUNTY)) + geom_bar() # make plot
+![rplot_agency_code](https://cloud.githubusercontent.com/assets/16123495/20827254/9b517f64-b825-11e6-8ad0-f786db58141b.png)
 
      ggplot(studyDV, aes(NCIC_AGENCY_CODE, fill=WEAPONS_INVOLVED)) + geom_bar() # make plot
      table(studyDV$WEAPONS_INVOLVED)
