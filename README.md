@@ -22,13 +22,15 @@ I have used the file dv_data_set_2005-2014.csv, which I found online and its ope
 working with and develop any researchand analysis.
 ![domesticviolenceca2015](https://cloud.githubusercontent.com/assets/16123495/20820260/c48f15da-b7ee-11e6-8211-2b50c4e3cfd9.png)
 
+Number of total calls in California during 2015-2014 was increase from  from 6595 to 8766.
 Highst level of total domestic violence calls during 2005-2014 belong to the Los Angeles county - 11754 registred calls. Orage county with 4775 call on the second place. The third place will share Sun Bernardino 3700 and Riverside County 3696 toal calls..
 ![total_calls_ca](https://cloud.githubusercontent.com/assets/16123495/20820458/21c38802-b7f0-11e6-976c-4cd30b7c4f01.png)
 
 I found it interesting that the accident with weapon getting less with time. 
 ![wepons_involved_ca2005_2014](https://cloud.githubusercontent.com/assets/16123495/20821722/bc3e9008-b7f9-11e6-8da7-3d0afa2c7624.png)
+![weapon involved_by countys_ca](https://cloud.githubusercontent.com/assets/16123495/20822485/ec90dabc-b7ff-11e6-8e7c-cb00b235288b.png)
 
-San Diego the place where accidents with weapos was detected 
+San Diego the place where accidents with weapons was detected 
 ![weapons_involved_ca](https://cloud.githubusercontent.com/assets/16123495/20820465/2ae45010-b7f0-11e6-869a-8e0062c82aad.png)
 But apperently it is possible for
 
