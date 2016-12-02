@@ -30,8 +30,12 @@ I found it interesting that the accident with weapon getting less with time.
 ![wepons_involved_ca2005_2014](https://cloud.githubusercontent.com/assets/16123495/20821722/bc3e9008-b7f9-11e6-8da7-3d0afa2c7624.png)
 ![weapon involved_by countys_ca](https://cloud.githubusercontent.com/assets/16123495/20822485/ec90dabc-b7ff-11e6-8e7c-cb00b235288b.png)
 We can see on this plot of total calls in CA with all kind of weponds involved like knifes or cutting instruments,firearms or guns, and other personal( hand, fists or fits in fight).
+Victims accessing services from State-funded domestic violence programs report serious threats to
+their personal safety: 65% have weapons used against them.
+
 ![all_weaponds_involved_ca](https://cloud.githubusercontent.com/assets/16123495/20825131/faa6b07e-b816-11e6-9232-0716b9b92b69.png)
-San Diego the place where accidents with weapons was detected 
+The boxplot shows that San Diego is detected as a leader of the citys where people used weapons.
+
 ![weapons_involved_ca](https://cloud.githubusercontent.com/assets/16123495/20820465/2ae45010-b7f0-11e6-869a-8e0062c82aad.png)
 But apperently it is possible for
 
@@ -63,6 +67,11 @@ in proggess and i still working on it.
     table1 <- data.frame(studyDV$TOTAL_CALLS, studyDV$WEAPONS_INVOLVED, studyDV$NO_WEAPONS,
                          studyDV$SUB_KNIFE, studyDV$SUB_PERSONAL)      
     colSums(table1)
+    
+    studyDV.TOTAL_CALLS studyDV.WEAPONS_INVOLVED       studyDV.NO_WEAPONS        studyDV.SUB_KNIFE
+                  1655573                   696512                   959061                    32154 
+    studyDV.SUB_PERSONAL 
+                  551695 
 
 
 This dataset contains 81866 observations and 11 variables. 
@@ -77,9 +86,13 @@ Start with summarizing the data
 
     m <- mean(studyDV$TOTAL_CALLS)
     m
-
+    [1] 20.22296
+Mean of total calls by California is 20.22296.
+    
     m_weap = mean(studyDV$WEAPONS_INVOLVED)
     m_weap
+    [1] 8.507952
+Mean with weapons involved is 8.507952.    
 
 
      library(plyr)
@@ -96,11 +109,14 @@ The dataset contains 58 countys and 745 NCIC agancys, where was detected acciden
      utils::str(hist(studyDV$TOTAL_CALLS, col = "gray", lables = T ))
      utils::str(hist(studyDV$NO_WEAPONS, col = "gray", lables = T ))
      utils::str(hist(studyDV$WEAPONS_INVOLVED, col = "gray", lables = T ))
+![histograms_dv](https://cloud.githubusercontent.com/assets/16123495/20827044/0dde1b70-b824-11e6-8177-dae31f41126a.png)     
 
      hist(sqrt(studyDV$YEAR), breaks = 50, col = "lightblue", border = "pink")
      hist(sqrt(studyDV$TOTAL_CALLS), breaks = 50, col = "lightblue", border = "pink")
      hist(sqrt(studyDV$NO_WEAPONS), breaks = 50, col = "lightblue", border = "pink") 
      hist(sqrt(studyDV$WEAPONS_INVOLVED), breaks = 50, col = "lightblue", border = "pink")
+![histograms2_freq_dv](https://cloud.githubusercontent.com/assets/16123495/20827047/116d0b98-b824-11e6-94d8-166e3ccaf497.png)     
+
 
      summarise(studyDV, avg=mean(TOTAL_CALLS)) # means
      count(studyDV$TOTAL_CALLS/count(studyDV$COUNTY))
