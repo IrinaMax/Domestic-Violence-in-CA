@@ -20,13 +20,16 @@ to study Domestic Violentce data set. That is how many accidents happened by yea
 how much with weapons and without weapons, and how this dinamic was chanes during 2005-2014
 I have used the file dv_data_set_2005-2014.csv, which I found online and its open for 
 working with and develop any researchand analysis.
+![domesticviolenceca2015](https://cloud.githubusercontent.com/assets/16123495/20820260/c48f15da-b7ee-11e6-8211-2b50c4e3cfd9.png)
 
-##I found it interesting that the accident with weapon getting less with time. 
-##But apperently it is possible for
+Highst level of totaldomestic violence calls during 2005-2014 belong to the Los Angeles county.
+![total_calls_ca](https://cloud.githubusercontent.com/assets/16123495/20820458/21c38802-b7f0-11e6-976c-4cd30b7c4f01.png)
+I found it interesting that the accident with weapon getting less with time. 
+But apperently it is possible for
 
-##I also tried to understand  and make move visual plots easy to understand where 
-##in what country accidents happened more and predict some forecast. This code 
-##in proggess and i still working on it. 
+I also tried to understand  and make move visual plots easy to understand where 
+in what country accidents happened more and predict some forecast. This code 
+in proggess and i still working on it. 
 
   
   ##  Load libraries
