@@ -29,7 +29,8 @@ Highst level of total domestic violence calls during 2005-2014 belong to the Los
 I found it interesting that the accident with weapon getting less with time. 
 ![wepons_involved_ca2005_2014](https://cloud.githubusercontent.com/assets/16123495/20821722/bc3e9008-b7f9-11e6-8da7-3d0afa2c7624.png)
 ![weapon involved_by countys_ca](https://cloud.githubusercontent.com/assets/16123495/20822485/ec90dabc-b7ff-11e6-8e7c-cb00b235288b.png)
-
+We can see on this plot of total calls in CA with all kind of weponds involved like knifes or cutting instruments,firearms or guns, and other personal( hand, fists or fits in fight).
+![all_weaponds_involved_ca](https://cloud.githubusercontent.com/assets/16123495/20825131/faa6b07e-b816-11e6-9232-0716b9b92b69.png)
 San Diego the place where accidents with weapons was detected 
 ![weapons_involved_ca](https://cloud.githubusercontent.com/assets/16123495/20820465/2ae45010-b7f0-11e6-869a-8e0062c82aad.png)
 But apperently it is possible for
