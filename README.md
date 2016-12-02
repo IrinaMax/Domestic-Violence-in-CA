@@ -1,4 +1,4 @@
-##My work with Domestic Violence-Related Calls for Assistance
+##My work with Domestic Violence-Related Calls for Assistance using Exploratory and R code.
 
  The goal of this script is to get an overview of the accidents in partnership in California to study Domestic Violentce data set. 
 
@@ -24,7 +24,9 @@ working with and develop any researchand analysis.
 
 Highst level of totaldomestic violence calls during 2005-2014 belong to the Los Angeles county.
 ![total_calls_ca](https://cloud.githubusercontent.com/assets/16123495/20820458/21c38802-b7f0-11e6-976c-4cd30b7c4f01.png)
+
 I found it interesting that the accident with weapon getting less with time. 
+![weapons_involved_ca](https://cloud.githubusercontent.com/assets/16123495/20820465/2ae45010-b7f0-11e6-869a-8e0062c82aad.png)
 But apperently it is possible for
 
 I also tried to understand  and make move visual plots easy to understand where 
