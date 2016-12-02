@@ -59,16 +59,16 @@ The first column represents the the year when accident happend.
 
 Start with summarizing the data
 
-     table(studyDV$YEAR, studyDV$COUNTY)
-     ggplot(studyDV, aes(YEAR)) + geom_bar() # make Rplot1 by year
-     ggplot(studyDV, aes(COUNTY)) + geom_bar() # make Rplot2 by county
-     ggplot(studyDV, aes(NCIC_AGENCY_CODE)) + geom_bar()  # make Rplot3 by agency code
+   table(studyDV$YEAR, studyDV$COUNTY)
+   ggplot(studyDV, aes(YEAR)) + geom_bar() # make Rplot1 by year
+   ggplot(studyDV, aes(COUNTY)) + geom_bar() # make Rplot2 by county
+   ggplot(studyDV, aes(NCIC_AGENCY_CODE)) + geom_bar()  # make Rplot3 by agency code
 
-    m <- mean(studyDV$TOTAL_CALLS)
-    m
+   m <- mean(studyDV$TOTAL_CALLS)
+   m
 
-m_weap = mean(studyDV$WEAPONS_INVOLVED)
-m_weap
+   m_weap = mean(studyDV$WEAPONS_INVOLVED)
+   m_weap
 
 
 library(plyr)
