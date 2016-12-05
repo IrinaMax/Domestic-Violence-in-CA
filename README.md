@@ -22,8 +22,8 @@ I have used the file dv_data_set_2005-2014.csv, which I found online and its ope
 working with and develop any research and analysis.
 ![domesticviolenceca2015](https://cloud.githubusercontent.com/assets/16123495/20820260/c48f15da-b7ee-11e6-8211-2b50c4e3cfd9.png)
 
-Number of total calls in California during 2015-2014 was increase from  from 6595 to 8766.
-Highst level of total domestic violence calls during 2005-2014 belong to the Los Angeles county - 11754 registred calls. Orage county with 4775 call on the second place. The third place will share Sun Bernardino 3700 and Riverside County 3696 toal calls..
+Number of total calls in California during 2005-2014 was increase from  from 6595 to 8766.
+Highst level of total domestic violence calls during 2005-2014 belong to the Los Angeles county - 11754 registred calls. Orage county with 4775 call on the second place. The third place is shared  by Sun Bernardino with 3700 and Riverside County with 3696 total calls..
 ![total_calls_ca](https://cloud.githubusercontent.com/assets/16123495/20820458/21c38802-b7f0-11e6-976c-4cd30b7c4f01.png)
 
 I found it interesting that the accident with weapon getting less with time. 
