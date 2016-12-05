@@ -40,7 +40,7 @@ The boxplot shows that San Diego is detected as a leader of the citys where peop
 But apperently it is possible for
 
 I also tried to understand  and make move visual plots easy to understand where 
-in what country accidents happened more and predict some forecast. This code 
+in what country incidents happened more and predict some forecast. This code 
 in proggess and i still working on it. 
 
   
