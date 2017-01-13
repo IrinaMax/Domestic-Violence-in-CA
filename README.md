@@ -3,8 +3,8 @@
  The goal of this script is to get an overview of the incidents in partnership in California to study Domestic Violentce data set. 
 
 #### title: Domestic Violentce accidents
-#### author: Irina Max
-#### date: 30 Sept 2016
+####author: Irina Max
+####date: 30 Sept 2016
 
  Domestic violence is defined as “...abuse committed against an adult or a fully emancipated minor who is a spouse, former spouse, cohabitant, former cohabitant, or person with whom the suspect has had a child or is having or has had a dating or engagement relationship.” [13700(b) PC]
  Abuse is defined as “...intentionally or recklessly causing or attempting to cause bodily injury, or placing another person in reasonable apprehension of imminent serious bodily injury to himself or herself, or another.” [13700(a) PC]
