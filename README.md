@@ -2,9 +2,9 @@
 
  The goal of this script is to get an overview of the incidents in partnership in California to study Domestic Violentce data set. 
 
-##title: "Domestic Violentce accidents"
-##author: "IrinaMax"
-##date: "30 Sept 2016"
+#### title: Domestic Violentce accidents
+#### author: Irina Max
+#### date: 30 Sept 2016
 
  Domestic violence is defined as “...abuse committed against an adult or a fully emancipated minor who is a spouse, former spouse, cohabitant, former cohabitant, or person with whom the suspect has had a child or is having or has had a dating or engagement relationship.” [13700(b) PC]
  Abuse is defined as “...intentionally or recklessly causing or attempting to cause bodily injury, or placing another person in reasonable apprehension of imminent serious bodily injury to himself or herself, or another.” [13700(a) PC]
@@ -44,21 +44,21 @@ in what country incidents happened more and predict some forecast. This code
 in proggess and i still working on it. 
 
   
-  ##  Load libraries
+  ######  Load libraries
 
     library(dplyr) # reshaping
     library(tidyr) # reshaping
     library(ggplot2) # Visualization
     library(ggthemes) # Visualization
     library(data.table)
-  ##Load the data
+  #####Load the data
 
     studyDV <- read.csv("dv_data_set_2005-2014.csv")
-  ##Get first overview
+  ##### Get first overview
     dim(studyDV)
     str(studyDV)
 
-   #Get first overview
+  ##### Get first overview
 
     tbl_df(studyDV)
     glimpse(studyDV)
