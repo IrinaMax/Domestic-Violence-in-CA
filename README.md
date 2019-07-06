@@ -1,8 +1,8 @@
 My work with Domestic Violence-Related Calls for Assistance using Exploratory and R code.
 
- The goal of this script is to get an overview of the incidents in partnership in California to study Domestic Violentce data set. 
+ The goal of this script is to get an overview of the incidents in partnership in California to study Domestic Violence data set. 
 
-    ###title: Domestic Violentce accidents
+    ###title: Domestic Violence accidents
     ###author: Irina Max
     ###date: 30 Sept 2016
 
@@ -16,7 +16,7 @@ Domestic violence-related calls for assistance that involved the use, or threat 
 
   
   The goal of this script is to get an overview of the incidents in partnership in California
-to study Domestic Violentce data set. That is how many incidents happened by year, 
+to study Domestic Violence data set. That is how many incidents happened by year, 
 how much with weapons and without weapons, and how this dynamic was changed during 2005-2014
 I have used the file dv_data_set_2005-2014.csv, which I found online and its open for 
 working with and develop any research and analysis.
